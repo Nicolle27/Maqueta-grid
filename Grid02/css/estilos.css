@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-areas: "a b c"
+                        " d e f"
+                        " g h i"
+                        " j k l"
+                        " m n o"
+                        " p q r";
+    grid-template-rows: 4rem 9rem 4rem 18rem 7rem 4rem;
+    grid-template-columns: auto auto 50rem;      
+}
+
+.a{grid-area: a;background: green;}
+.b{grid-area: b;background: green;}
+.c{grid-area: c;background: green;}   
+
+.d{grid-area: d;background: yellow;}
+.e{grid-area: e;background: yellow;}
+.f{grid-area: f;background: yellow;}
+
+.g{grid-area: g;background: skyblue;}
+.h{grid-area: h;background: skyblue;}
+.i{grid-area: i;background: skyblue;}
+
+.j{grid-area: j;background: #e93aac;}
+.k{grid-area: k;background: #0603bd;}
+.l{grid-area: l;background: #13979b;}
+
+.m{grid-area: m;background: #e93aac;}
+.n{grid-area: n;background: #e79704;}
+.o{grid-area: o;background: #e79704;}
+
+.p{grid-area: p;background: red;}
+.q{grid-area: q;background: red;}
+.r{grid-area: r;background: red;}
+
+.div{
+    display: flex;
+    margin: 0.2em;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
